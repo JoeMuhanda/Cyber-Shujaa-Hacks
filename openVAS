@@ -4,6 +4,7 @@ https://websiteforstudents.com/how-to-install-and-configure-openvas-on-ubuntu-18
 https://www.agix.com.au/installing-openvas-on-kali-in-2020/
 
 Installing from DOCKER
+
    apt install docker.io
 
    docker run -d -p 443:443 --name openvas mikesplain/openvas
